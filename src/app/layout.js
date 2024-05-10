@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <head>
       <meta name="google-site-verification" content="xC3h4fz6ZvBHSXJc23BDTgiwdQVLG0SAnA8NqKjodHg" />
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7753611648248622"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>

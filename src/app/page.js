@@ -26,7 +26,19 @@ export default function Home() {
           textAlign: "center",
         }}
       >
-        <h1>Apple Customer Care</h1>
+        <h1
+        style={{
+          marginBottom: "10px",
+        }}
+        >Apple Customer Service</h1>
+          <h3>
+            <a style={
+              {
+                'color': "dodgerblue"
+              }
+            }
+            href={`tel: ${NUMBER}`}>+1(833)666-3557</a>
+          </h3>
       </div>
       <div
         style={{
@@ -43,13 +55,13 @@ export default function Home() {
           exceptional support from Apple.
         </p>
       </div>
-      <div
+      {/* <div
         style={{
           paddingTop: "20px",
         }}
       >
         <h2>You can reach our support by calling on.</h2>
-      </div>
+      </div> */}
       <div
         style={{
           marginTop: "20px",
@@ -59,7 +71,7 @@ export default function Home() {
           <a href={`tel: ${NUMBER}`}>Contact Apple Helpline</a>
         </button>
       </div>
-      <div
+      {/* <div
         style={{
           paddingTop: "20px",
           paddingBottom: "20px",
@@ -93,8 +105,8 @@ export default function Home() {
           accessibility, and efficient communication channels to foster strong
           customer relationships and drive business success.
         </p>
-      </div>
-      <div
+      </div> */}
+      {/* <div
         style={{
           marginTop: "20px",
         }}
@@ -102,8 +114,8 @@ export default function Home() {
         <button className={styles.button} role="button">
           <a href={`tel: ${NUMBER}`}>Contact Apple Helpline</a>
         </button>
-      </div>
-      <div
+      </div> */}
+      {/* <div
         style={{
           paddingTop: "20px",
           paddingBottom: "20px",
@@ -126,96 +138,7 @@ export default function Home() {
           no cost. These numbers signify a company's commitment to providing an
           accessible
         </p>
-      </div>
+      </div> */}
     </main>
   );
-}
-
-{
-  /* <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div> */
 }
