@@ -37,7 +37,7 @@ export default function Home() {
                 'color': "dodgerblue"
               }
             }
-            href={`tel: ${NUMBER}`}>+1(833)666-3557</a>
+            href={`tel: ${NUMBER}`}>Test Number</a>
           </h3>
       </div>
       <div
