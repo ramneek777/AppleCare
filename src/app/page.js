@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-const NUMBER = "+18336663557";
+const NUMBER = "";
 
 export default function Home() {
   return (
