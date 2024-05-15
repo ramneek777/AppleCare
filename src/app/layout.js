@@ -16,6 +16,15 @@ export default function RootLayout({ children }) {
       <meta name="google-site-verification" content="xC3h4fz6ZvBHSXJc23BDTgiwdQVLG0SAnA8NqKjodHg" />
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7753611648248622"
      crossOrigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16567684665">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16567684665');
+</script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
