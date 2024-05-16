@@ -13,7 +13,7 @@ export default function Home() {
       >
         <Image
           src="/apple-certefied.jpg"
-          alt="Apple Logo"
+          alt="Apples Logo"
           className={styles.vercelLogo}
           width={200}
           height={200}
@@ -30,7 +30,7 @@ export default function Home() {
         style={{
           marginBottom: "10px",
         }}
-        >Apple Customer Service</h1>
+        >Appless Customer Service</h1>
           <h3>
             <a style={
               {
@@ -47,12 +47,12 @@ export default function Home() {
         }}
       >
         <p>
-          For any assistance or inquiries related to Apple products or services,
+          For any assistance or inquiries related to Appless products or services,
           our dedicated customer service team is here to help you. Whether you
-          need technical support, have questions about your Apple device,
-          require assistance with your Apple account, or need guidance with
-          Apple services, our experts are just a phone call away. Experience
-          exceptional support from Apple.
+          need technical support, have questions about your Appless device,
+          require assistance with your Appless account, or need guidance with
+          Appless services, our experts are just a phone call away. Experience
+          exceptional support from Appless.
         </p>
       </div>
       {/* <div
@@ -68,7 +68,7 @@ export default function Home() {
         }}
       >
         <button className={styles.button} role="button">
-          <a href={`tel: ${NUMBER}`}>Contact Apple Helpline</a>
+          <a href={`tel: ${NUMBER}`}>Contact Appless Helpline</a>
         </button>
       </div>
       {/* <div
